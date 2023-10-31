@@ -179,3 +179,15 @@ Status: 200 OK
   "message": "Book not found"
 }
 ```
+
+---
+
+# Deploying the code
+
+Make sure vercel is installed in your system
+
+`npm i vercel@latest -g`
+
+To deploy the code, just run the command:
+
+`vercel --prod`
