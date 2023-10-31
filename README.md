@@ -18,7 +18,7 @@ To clone the code and run, run below commands in exact same order
 
 This document provides information about a set of APIs for managing a book application, including creating, retrieving, updating, and deleting book.
 
-## 1. Retrieve All Blog Posts
+## 1. Retrieve All Books
 
 ### Endpoint: GET /api/book
 
