@@ -180,6 +180,18 @@ Status: 200 OK
 }
 ```
 
+Cases such as attempting to view, update, or delete a non-existent book with invalid Book Id, will lead to a message saying "input id is invalid"
+
+**Response:**
+
+Status: 400 Bad Request
+
+```json
+{
+  "message": "input id is invalid"
+}
+```
+
 ---
 
 # Deploying the code
